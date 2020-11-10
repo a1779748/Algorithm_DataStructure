@@ -22,7 +22,7 @@ void bubbleSort(T *arr, int len)
     {
         for (int j=0; j<len-1-i; j++)       // each time compare current value and current next value
         {
-            if (arr[j] < arr[j+1]) // desending order
+            if (arr[j] < arr[j+1])          // desending order
             {
                 mySwap(arr[j], arr[j+1]);   // swap
             }
